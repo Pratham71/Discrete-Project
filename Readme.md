@@ -54,8 +54,8 @@ It is especially useful for academic demonstrations in **Discrete Mathematics, G
 
 ### 1. Clone / download the project
 ```shell
-git clone <repository-url>
-cd <project-folder>
+git clone git@github.com:Pratham71/Discrete-Project.git
+cd Discrete-Project
 ```
 
 ### 2. Install dependencies
