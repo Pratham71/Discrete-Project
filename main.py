@@ -222,7 +222,7 @@ with st.sidebar:
     scenario_mode = st.selectbox(
         "Select Scenario", 
         ["Custom Playground", "Problem 1: University Backbone", "Problem 2: Regional Power Grid", 
-         "Problem 3: Rural Water Supply", "Problem 4: Circuit Board Wiring"]
+         "Problem 3: Rural Water Supply"]
     )
     
     if scenario_mode == "Custom Playground":
@@ -332,9 +332,7 @@ with tab_design:
     elif scenario_mode == "Problem 2: Regional Power Grid":
         st.markdown("### ⚡ Problem 2: Regional Power Distribution")
     elif scenario_mode == "Problem 3: Rural Water Supply":
-        st.markdown("### 💧 Problem 3: Rural Water Supply Network")
-    elif scenario_mode == "Problem 4: Circuit Board Wiring":
-        st.markdown("### 🔌 Problem 4: Circuit Board (PCB) Wiring")
+        st.markdown("### 💧 Problem 3: Rural Water Supply Network") 
 
     df = st.session_state['adj_df']
     
